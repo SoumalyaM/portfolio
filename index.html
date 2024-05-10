@@ -193,11 +193,11 @@
                  </div>
                  <form name="contact" id="myForm" data-netlify="true" action="/success/" method="post">
                     <div class="input-line">
-                        <input  id="name" type="text" placeholder="Name" class="input-name">
-                        <input id="email" type="email" placeholder="Email"  class="input-name">
+                        <input  id="name" name="name" type="text" placeholder="Name" class="input-name">
+                        <input id="email" name="email" type="email" placeholder="Email"  class="input-name">
                     </div>
-                    <input type="text" id="subject" placeholder="subject" class="input-subject">
-                    <textarea id ="body" class="input-textarea" placeholder="message"></textarea>
+                    <input type="text" name="subject" id="subject" placeholder="subject" class="input-subject">
+                    <textarea id ="body" name="message" class="input-textarea" placeholder="message"></textarea>
                     <button type="submit" id ="submit" value="submit">Submit</button>
                  </form>
              </div>
